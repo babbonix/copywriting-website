@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <title>Copywriting</title>
+</head>
+<body>
+
+    <div id="main-container">
+
+        <div id="logo">
+            <img id="logo-off" src="./img/logo-off.png">
+            <img id="logo-on" src="./img/logo-on.png">
+        </div>
+        <!-- <div id="slogan">
+            lorem ipsum
+        </div> -->
+        <div class="form__group">
+            <input type="text" class="form__input" id="name" placeholder="Enter your best email" required="" />
+            <button id="submit-button">dfsdf</button>
+        </div>
+        <div id="description"></div>
+        <div id="test"></div>
+    </div>
+
+    <script>
+
+        // Define all possible colors
+        let colors = [
+            '#ffd5dc',
+            '#f1d5ff',
+            '#d6d5ff',
+            '#ffddd5',
+        ];
+        // Pick a color randomly
+        let color = colors[parseInt(Math.random() * 4)];
+        // set the gradient color
+        document.body.style.background = `linear-gradient(to bottom, #ffffff, ${color})`;
+
+        let logo = document.getElementById('logo');
+        // Add hover event for logo
+        logo.addEventListener("mouseover", (event) => {
+            // Hide logo-off
+            document.getElementById('logo-off').style.display = "none";
+            // Show logo-on
+            document.getElementById('logo-on').style.display = "block";
+        });
+        
+        logo.addEventListener("mouseout", (event) => {
+            // Show logo-off
+            document.getElementById('logo-off').style.display = "block";
+            // Hide logo-on
+            document.getElementById('logo-on').style.display = "none";
+        });
+
+
+
+
+        
+        
+    </script>
+    
+</body>
+</html>
