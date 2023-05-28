@@ -3,25 +3,6 @@ body{
   overflow-x: hidden;
 }
 
-#logo-container {
-  /* border: 1px dotted red; */
-  display: flex;
-  flex-direction: column;
-  /* justify-content: center; */
-  align-items: center;
-  margin-top: 10vh;
-}
-
-/* #fills>*:hover {
-  stroke: #FFF8AB;
-  fill: #FFF8AB;
-}
-
-#outline>*:hover {
-  stroke: #FFD62F;
-} */
-
-
 
 
 
