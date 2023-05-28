@@ -21,26 +21,42 @@
             lorem ipsum
         </div> -->
         <div class="form__group">
-            <input type="text" class="form__input" id="name" placeholder="Enter your best email" required="" />
+            <input type="text" id="form-input" placeholder="Enter your best email" required="" />
             <button id="submit-button">dfsdf</button>
         </div>
-        <div id="description"></div>
+        <div id="description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        </div>
         <div id="test"></div>
     </div>
 
     <script>
 
-        // Define all possible colors
-        let colors = [
+        // Define all possible gradient colors
+        let gradientColors = [
             '#ffd5dc',
             '#f1d5ff',
             '#d6d5ff',
             '#ffddd5',
         ];
+
+        // Define all possible button colors
+        let buttonColors = [
+            '#ffa1b1',
+            '#e4adff',
+            '#b4b3ff',
+            '#ffb8a8',
+        ];
+
         // Pick a color randomly
-        let color = colors[parseInt(Math.random() * 4)];
-        // set the gradient color
-        document.body.style.background = `linear-gradient(to bottom, #ffffff, ${color})`;
+        let color = parseInt(Math.random() * 4);
+        // Set the gradient color
+        document.body.style.background = `linear-gradient(to bottom, #ffffff, ${gradientColors[color]})`;
+        // Set the button color
+        document.getElementById('submit-button').style.backgroundColor = buttonColors[color];
+        // Set the shadow color
+        const asd = document.getElementById('form-input').style.boxShadow = `-5px 5px 20px 0px ${buttonColors[color]}`;
 
         let logo = document.getElementById('logo');
         // Add hover event for logo
