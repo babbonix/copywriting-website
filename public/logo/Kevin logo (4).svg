@@ -1,0 +1,56 @@
+<svg width="208" height="176" viewBox="0 0 208 176" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="fills">
+<path class="fill-area" id="fill-right" d="M77.0055 136.267C90.2055 152.267 96.5055 146.6 98.0055 141.767V36.7669C94.4055 33.5669 91.1722 35.4336 90.0055 36.7669L88.0055 37.7669C74.4055 36.9669 70.6722 46.7669 70.5055 51.7669L69.0055 54.2669C51.4055 64.2669 55.6722 82.1002 60.0055 89.7669L59.0055 92.2669C44.6055 120.267 64.6722 132.267 76.5055 134.767L77.0055 136.267Z" fill="#fffef5" stroke="#fffef5" stroke-width="2" stroke-linecap="round"/>
+<path class="fill-area" id="fill-left" d="M131 136.267C117.8 152.267 111.5 146.6 110 141.767V36.7669C113.6 33.5669 116.833 35.4336 118 36.7669L120 37.7669C133.6 36.9669 137.333 46.7669 137.5 51.7669L139 54.2669C156.6 64.2669 152.333 82.1002 148 89.7669L149 92.2669C163.4 120.267 143.333 132.267 131.5 134.767L131 136.267Z" fill="#fffef5" stroke="#fffef5" stroke-width="2" stroke-linecap="round"/>
+</g>
+<g id="outline">
+<path class="outline-stroke" id="Vector 7" d="M100 37V142" stroke="#91907a" stroke-width="2" stroke-linecap="round"/>
+<path class="outline-stroke" id="Vector 3" d="M72.9348 102C54.8043 95.6327 42.9187 56.7918 82 50" stroke="#91907a" stroke-width="2" stroke-linecap="round"/>
+<path class="outline-stroke" id="Vector 1" d="M100 142.142C98.0833 147.7 90.8 154.251 77 136" stroke="#91907a" stroke-width="2" stroke-linecap="round"/>
+<path class="outline-stroke" id="Vector 2" d="M94 133.926C76.9713 141.502 39.5081 128.573 59.9426 91" stroke="#91907a" stroke-width="2" stroke-linecap="round"/>
+<path class="outline-stroke" id="Vector 4" d="M70 53C70.4878 46.7088 75.1707 34.7734 90 37.3618" stroke="#91907a" stroke-width="2" stroke-linecap="round"/>
+<path class="outline-stroke" id="Vector 5" d="M85 68C90.3333 64 98.9 52.4 90.5 38" stroke="#91907a" stroke-width="2" stroke-linecap="round"/>
+<path class="outline-stroke" id="Vector 6" d="M90 37C90 34.3465 97.0526 31.8446 100 37" stroke="#91907a" stroke-width="2" stroke-linecap="round"/>
+<path class="outline-stroke" id="Vector 8" d="M100 120.5C96.8333 119.5 90 114.5 88 102.5C85.5 87.5 82 84 77 80" stroke="#91907a" stroke-width="2" stroke-linecap="round"/>
+<path class="outline-stroke" id="Vector 9" d="M108 37V142" stroke="#91907a" stroke-width="2" stroke-linecap="round"/>
+<path class="outline-stroke" id="Vector 10" d="M135.065 102C153.196 95.6327 165.081 56.7918 126 50" stroke="#91907a" stroke-width="2" stroke-linecap="round"/>
+<path class="outline-stroke" id="Vector 11" d="M108 142.142C109.917 147.7 117.2 154.251 131 136" stroke="#91907a" stroke-width="2" stroke-linecap="round"/>
+<path class="outline-stroke" id="Vector 12" d="M114 133.926C131.029 141.502 168.492 128.573 148.057 91" stroke="#91907a" stroke-width="2" stroke-linecap="round"/>
+<path class="outline-stroke" id="Vector 13" d="M138 53C137.512 46.7088 132.829 34.7734 118 37.3618" stroke="#91907a" stroke-width="2" stroke-linecap="round"/>
+<path class="outline-stroke" id="Vector 14" d="M123 68C117.667 64 109.1 52.4 117.5 38" stroke="#91907a" stroke-width="2" stroke-linecap="round"/>
+<path class="outline-stroke" id="Vector 15" d="M118 37C118 34.3465 110.947 31.8446 108 37" stroke="#91907a" stroke-width="2" stroke-linecap="round"/>
+<path class="outline-stroke" id="Vector 16" d="M108 120.5C111.167 119.5 118 114.5 120 102.5C122.5 87.5 126 84 131 80" stroke="#91907a" stroke-width="2" stroke-linecap="round"/>
+<path class="outline-stroke" id="Vector 19" d="M117 152H91" stroke="#91907a" stroke-width="2" stroke-linecap="round"/>
+<path class="outline-stroke" id="Vector 21" d="M117 157H91" stroke="#91907a" stroke-width="2" stroke-linecap="round"/>
+<path class="outline-stroke" id="Vector 22" d="M117 162H91" stroke="#91907a" stroke-width="2" stroke-linecap="round"/>
+<path class="outline-stroke" id="Vector 23" d="M117 167H91" stroke="#91907a" stroke-width="2" stroke-linecap="round"/>
+<path class="outline-stroke" id="Vector 24" d="M112 168C112 177.333 96 177.333 96 168" stroke="#91907a" stroke-width="2" stroke-linecap="round"/>
+</g>
+<g id="lightbeams">
+<path class="lightbeam" id="Vector 25" d="M104 18V1" stroke="#FFD62F" stroke-width="2" stroke-linecap="round"/>
+<path class="lightbeam" id="Vector 26" d="M80 26L77 20" stroke="#FFD62F" stroke-width="2" stroke-linecap="round"/>
+<path class="lightbeam" id="Vector 39" d="M128 26L131 20" stroke="#FFD62F" stroke-width="2" stroke-linecap="round"/>
+<path class="lightbeam" id="Vector 27" d="M75 14L69 1" stroke="#FFD62F" stroke-width="2" stroke-linecap="round"/>
+<path class="lightbeam" id="Vector 40" d="M133 14L139 1" stroke="#FFD62F" stroke-width="2" stroke-linecap="round"/>
+<path class="lightbeam" id="Vector 28" d="M57 40L44 27" stroke="#FFD62F" stroke-width="2" stroke-linecap="round"/>
+<path class="lightbeam" id="Vector 41" d="M151 40L164 27" stroke="#FFD62F" stroke-width="2" stroke-linecap="round"/>
+<path class="lightbeam" id="Vector 29" d="M38 21L32 15" stroke="#FFD62F" stroke-width="2" stroke-linecap="round"/>
+<path class="lightbeam" id="Vector 42" d="M170 21L176 15" stroke="#FFD62F" stroke-width="2" stroke-linecap="round"/>
+<path class="lightbeam" id="Vector 30" d="M42 64L27 57" stroke="#FFD62F" stroke-width="2" stroke-linecap="round"/>
+<path class="lightbeam" id="Vector 43" d="M166 64L181 57" stroke="#FFD62F" stroke-width="2" stroke-linecap="round"/>
+<path class="lightbeam" id="Vector 31" d="M19 54L9 50" stroke="#FFD62F" stroke-width="2" stroke-linecap="round"/>
+<path class="lightbeam" id="Vector 44" d="M189 54L199 50" stroke="#FFD62F" stroke-width="2" stroke-linecap="round"/>
+<path class="lightbeam" id="Vector 32" d="M39 89H25" stroke="#FFD62F" stroke-width="2" stroke-linecap="round"/>
+<path class="lightbeam" id="Vector 45" d="M169 89H183" stroke="#FFD62F" stroke-width="2" stroke-linecap="round"/>
+<path class="lightbeam" id="Vector 33" d="M18.5 89H1" stroke="#FFD62F" stroke-width="2" stroke-linecap="round"/>
+<path class="lightbeam" id="Vector 46" d="M189.5 89H207" stroke="#FFD62F" stroke-width="2" stroke-linecap="round"/>
+<path class="lightbeam" id="Vector 34" d="M43 113L30 119" stroke="#FFD62F" stroke-width="2" stroke-linecap="round"/>
+<path class="lightbeam" id="Vector 47" d="M165 113L178 119" stroke="#FFD62F" stroke-width="2" stroke-linecap="round"/>
+<path class="lightbeam" id="Vector 35" d="M25 121L10 128" stroke="#FFD62F" stroke-width="2" stroke-linecap="round"/>
+<path class="lightbeam" id="Vector 48" d="M183 121L198 128" stroke="#FFD62F" stroke-width="2" stroke-linecap="round"/>
+<path class="lightbeam" id="Vector 36" d="M52 135L46 140" stroke="#FFD62F" stroke-width="2" stroke-linecap="round"/>
+<path class="lightbeam" id="Vector 49" d="M156 135L162 140" stroke="#FFD62F" stroke-width="2" stroke-linecap="round"/>
+<path class="lightbeam" id="Vector 37" d="M42 143L33 150" stroke="#FFD62F" stroke-width="2" stroke-linecap="round"/>
+<path class="lightbeam" id="Vector 50" d="M166 143L175 150" stroke="#FFD62F" stroke-width="2" stroke-linecap="round"/>
+</g>
+</svg>
