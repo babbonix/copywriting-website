@@ -71,14 +71,10 @@ body{
     font-style: italic;
     position: relative;
     top: 0px;
-    opacity: 0;
 }
 
 #logo-container {
-    margin: 25vh 0 0 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    margin: 15vh 0 0vh 0;
 }
 
 #overlay {
@@ -171,12 +167,6 @@ body {
     height: 100%;
 }
 
-
-#click-me-img {
-    width: 80px;
-    margin-right: 10vw;
-    opacity: 1;
-}
 
 
 

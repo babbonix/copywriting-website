@@ -15,9 +15,6 @@
 
         <div id="above-the-fold">
             <div id="logo-container">
-                <!-- Click me  -->
-                <img src="./img/click-me.png" id="click-me-img">
-                <!-- Brain Light logo -->
                 <svg width="208" height="176" viewBox="0 0 208 176" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="fills">
                         <path class="fill-area" id="fill-right" d="M77.0055 136.267C90.2055 152.267 96.5055 146.6 98.0055 141.767V36.7669C94.4055 33.5669 91.1722 35.4336 90.0055 36.7669L88.0055 37.7669C74.4055 36.9669 70.6722 46.7669 70.5055 51.7669L69.0055 54.2669C51.4055 64.2669 55.6722 82.1002 60.0055 89.7669L59.0055 92.2669C44.6055 120.267 64.6722 132.267 76.5055 134.767L77.0055 136.267Z" />
@@ -77,7 +74,6 @@
             </div>
 
             <div id="overlay" ></div>
-
         
             <!-- <div id="logo">
                 <img id="logo-off" src="./img/logo-off.png">
@@ -88,6 +84,10 @@
             </div> -->
             <div id="description">
                 Enhance your Mind
+            </div>
+            <div class="form__group">
+                <input type="text" id="form-input" placeholder="Enter your best email" required="" />
+                <button id="submit-button">dfsdf</button>
             </div>
         </div>
 
@@ -112,10 +112,7 @@
         let button = document.getElementById('submit-button');
         // Get description
         let description = document.getElementById('description');
-        // Get click me
-        let clickMe = document.getElementById('click-me-img');
-        // Get logo-container
-        let logoContainer = document.getElementById('logo-container');
+
 
         // Define all possible gradient colors
         let gradientColors = [
@@ -146,13 +143,11 @@
         // Set the gradient color
         document.body.style.background = `linear-gradient(to bottom, ${gradientColors[color]}, ${gradientColorsOff[color]})`;
         // Set the button color
-        // document.getElementById('submit-button').style.backgroundColor = buttonColors[color];
+        document.getElementById('submit-button').style.backgroundColor = buttonColors[color];
         // Set the shadow color
-        // let formInput = document.getElementById('form-input');
-        // formInput.style.boxShadow = `-5px 5px 20px 0px ${buttonColors[color]}`;
+        let formInput = document.getElementById('form-input');
+        formInput.style.boxShadow = `-5px 5px 20px 0px ${buttonColors[color]}`;
         description.style.textShadow = `3px 5px 5px ${buttonColors[color]}`;
-
-
 
 
         // Set transition time for all elements
@@ -165,37 +160,19 @@
         lightbeamsArray.forEach(element => {
             element.style.transition = "all 1s";
         });
-        // formInput.style.transition = "all 0.5s";
-        overlay.style.transition = "all 2s";
-        // button.style.transition = "all 1s";
-        description.style.transition = "all 3s";
-        clickMe.style.transition = "all 1s";
-        logoContainer.style.transition = "all 3s";
-
-
-
+        formInput.style.transition = "all 0.5s";
+        overlay.style.transition = "all 1s";
+        button.style.transition = "all 1s";
+        description.style.transition = "all 1s";
 
         // Add hover event for logo
         let logo = document.getElementById('logo-container');
-        logo.addEventListener("click", (event) => {
-            toggleLight();
+        logo.addEventListener("mouseover", (event) => {
+            turnOn();
         });
-
-
-
-
-
-        let lightOn = false;
-
-        function toggleLight() {
-            if(lightOn) {
-                turnOff();
-                lightOn = false;
-            } else {
-                turnOn();
-                lightOn = true;
-            }
-        }
+        logo.addEventListener("mouseout", (event) => {
+            turnOff();
+        });
 
         function turnOn() {
             // Set outline color
@@ -211,18 +188,12 @@
             lightbeamsArray.forEach(element => {
                 element.style.opacity = '1';
             });
-            // formInput.style.boxShadow = `-3px 5px 20px 0px ${buttonColors[color]}`;
+            formInput.style.boxShadow = `-3px 5px 20px 0px ${buttonColors[color]}`;
             // Set the gradient color
             // document.body.style.background = `linear-gradient(to bottom, #ffffff, ${gradientColors[color]})`;
             overlay.style.opacity = '0.3';
             // Set the gradient color
             description.style.textShadow = `3px 5px 5px ${buttonColors[color]}`;
-            // Only change opacity on turnOn, don't want to hide it again when turning off.
-            description.style.opacity = '1';
-            // Only change opacity on turnOn, don't want to show it again when turning off.
-            clickMe.style.opacity = '0';
-            // Change positioning (only once).
-            logoContainer.style.margin = '10vh 0 0 0'; 
         }
 
         function turnOff() {
@@ -239,7 +210,7 @@
             lightbeamsArray.forEach(element => {
                 element.style.opacity = '0';
             });
-            // formInput.style.boxShadow = `0px 0px 0px 0px ${buttonColors[color]}`;
+            formInput.style.boxShadow = `0px 0px 0px 0px ${buttonColors[color]}`;
             // Set the gradient color
             // document.body.style.background = `linear-gradient(to bottom, ${gradientColors[color]}, ${gradientColorsOff[color]})`;
             overlay.style.opacity = '0';
